@@ -1,10 +1,8 @@
 :root {
   --bg: #0b0d17;
-  --card: #141829;
   --text: #e9ebf5;
   --muted: #b4b9d0;
   --gold: #e8b84a;
-  --line: #2a3050;
 }
 * { box-sizing: border-box; }
 html { color-scheme: dark; }
@@ -20,17 +18,9 @@ h1 { font-size: clamp(2rem, 8vw, 3rem); margin: 0.5rem 0; }
 h2 { font-size: 1.4rem; margin-top: 2rem; }
 a { color: var(--gold); }
 a:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
-p, li { color: var(--text); }
 .muted { color: var(--muted); }
 .hero { text-align: center; padding-top: 3rem; }
 .crown { width: 9rem; height: auto; }
-.card {
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  padding: 1rem 1.25rem;
-  margin: 1.5rem 0;
-}
 .lang { display: flex; gap: 1rem; flex-wrap: wrap; margin: 0 0 1rem; padding: 0; list-style: none; }
 .lang [aria-current] { color: var(--text); font-weight: 700; text-decoration: none; }
 footer { margin-top: 3rem; color: var(--muted); font-size: 0.9rem; }
